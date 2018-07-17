@@ -13,6 +13,7 @@ printf("Please write another number\n");
 	
 
  	k=a*t;
+ 	printf("result:%d",k);
 	
 	return 0;
 }

@@ -29,7 +29,7 @@ printf("Please write another number\n");
 	
 
    if(a==2 || t==2 ){
-   	  	printf("asal sayi girdiniz");
+   	  	printf("you write an unsupported number");
    }	
    else if((v*l)==1){
    
@@ -37,7 +37,7 @@ printf("Please write another number\n");
  	printf("result:%d",k);
         }
    else{
-   	printf("asal sayi girdiniz");
+   	printf("you wrote a unsupported number");
    	
    }
 	return 0;

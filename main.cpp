@@ -5,11 +5,11 @@ int i;
 int w;
 for(i=2;i<m;i++){
     if(m%i==0){
-	w=1;
+	w=0;
 	break;
 	}
     else {
-	 w=0;
+	 w=1;
 	 }
 }
 return w;

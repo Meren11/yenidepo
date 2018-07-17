@@ -3,12 +3,16 @@
 
 
 int main(int argc, char** argv) {
-	int a;
+	int a,t,k;
 	printf("Please write a number\n");
 	scanf("%d",&a);
 	
-	printf("your number is:");
-	printf("%d",a);
+
+printf("Please write another number\n");
+	scanf("%d",&t);
+	
+
+ 	k=a*t;
 	
 	return 0;
 }
